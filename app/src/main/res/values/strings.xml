@@ -1,3 +1,6 @@
 <resources>
-    <string name="app_name">Docs</string>
+    <string name="app_name">Dokumentų registravimas</string>
+    <string name="vartotojoSlaptazodis">Slaptažodis</string>
+    <string name="vartotojoVardas">Vartotojo vardas</string>
+    <string name="loginPrisijungti">Prisijungti</string>
 </resources>
