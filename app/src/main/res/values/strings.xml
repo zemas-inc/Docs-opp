@@ -3,4 +3,22 @@
     <string name="vartotojoSlaptazodis">Slaptažodis</string>
     <string name="vartotojoVardas">Vartotojo vardas</string>
     <string name="loginPrisijungti">Prisijungti</string>
+    <string name="loginPasswordHint">Jūsų slaptažodis</string>
+    <string name="naujasIrasasRegistracijosNumeris">Registracijos numeris</string>
+    <string name="naujasIrasasDokumentoNumeris">Dokumento numeris</string>
+    <string name="naujasIrasasTipas">Tipas</string>
+    <string name="naujasIrasasTipasSaskaita">Sąskaita</string>
+    <string name="naujasIrasasTipasRastas">Raštas</string>
+    <string name="naujasIrasasTipasDraudimas">Draudimas</string>
+    <string name="naujasIrasasTipasGarantija">Garantija</string>
+    <string name="naujasIrasasTipasKtDokumentas">Kitas dokumentas</string>
+    <string name="naujasIrasasSiuntejas">Siuntėjas</string>
+    <string name="naujasIrasasGavejas">Gavėjas</string>
+    <string name="naujasIrasasAprasymas">Aprašymas</string>
+    <string name="naujasIrasasArAtsakyti">Ar reikia atsakyti?</string>
+    <string name="Taip">Taip</string>
+    <string name="Ne">Ne</string>
+    <string name="naujasIrasasSiusti">Siųsti</string>
+    <string name="naujasIrasas">Naujas įrašas</string>
+    <string name="perziuretiIrasus">Peržiūrėti įrašus</string>
 </resources>

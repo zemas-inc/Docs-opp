@@ -5,5 +5,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="eu.xn__emaitis_cxb.mokslai.docs.MenuActivity">
-
+    <ScrollView
+        android:layout_width="368dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+                <Button
+                android:id="@+id/naujasIrasas"
+                android:text="@string/naujasIrasas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/perziuretiIrasus"
+                    android:text="@string/perziuretiIrasus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
 </android.support.constraint.ConstraintLayout>
