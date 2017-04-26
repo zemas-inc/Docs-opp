@@ -21,4 +21,11 @@
     <string name="naujasIrasasSiusti">Siųsti</string>
     <string name="naujasIrasas">Naujas įrašas</string>
     <string name="perziuretiIrasus">Peržiūrėti įrašus</string>
+    <string name="loginRegister">Sukurti</string>
+    <string name="elpastas">El. pašto adresas</string>
+    <string name="error_invalid_username">Blogai nurodytas vartotojo vardas</string>
+    <string name="error_invalid_password">Blogai nurodytas slaptažodis</string>
+    <string name="error_invalid_email">Blogai nurodytas el. pašto adresas</string>
+    <string name="search_paieska">Dokumentų paieška</string>
+    <string name="search_mygtukas">Ieškoti</string>
 </resources>

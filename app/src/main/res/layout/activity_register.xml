@@ -5,5 +5,81 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="eu.xn__emaitis_cxb.mokslai.docs.RegisterActivity">
+    <LinearLayout
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="20dp"
+        tools:layout_editor_absoluteX="8dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="@string/vartotojoVardas">
+        </TextView>
 
+        <EditText
+            android:id="@+id/registerNew_vardas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:inputType="text">
+
+            <requestFocus />
+        </EditText>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="@string/elpastas">
+        </TextView>
+
+        <EditText
+            android:id="@+id/registerNew_elPastas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:inputType="textEmailAddress">
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:text="@string/vartotojoSlaptazodis"/>
+
+        <EditText
+            android:id="@+id/registerNew_slaptazodis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:inputType="textPassword"
+            android:password="true"
+            android:hint="@string/loginPasswordHint"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="8dp">
+            <requestFocus />
+        </EditText>
+        <Button
+            android:id="@+id/buttonNewRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/loginRegister"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="0dp" />
+    </LinearLayout>
 </android.support.constraint.ConstraintLayout>

@@ -46,10 +46,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/naujasIrasasTipasRastas"/>
-                <RadioButton
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/naujasIrasasTipasDraudimas"/>
+
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -58,6 +55,12 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/naujasIrasasTipasKtDokumentas"/>
+
+                <RadioButton
+                    android:id="@+id/radioButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/naujasIrasasTipasDraudimas" />
             </RadioGroup>
             <TextView
                 android:layout_width="match_parent"
@@ -87,16 +90,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/naujasIrasasArAtsakyti"/>
-            <CheckBox
-                android:id="@+id/atsakytiTaip"
+            <RadioGroup
+                android:id="@+id/atsakymas"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/Taip"/>
-            <CheckBox
-                android:id="@+id/atsakytiNe"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/Ne"/>
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Taip"/>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Ne"/>
+            </RadioGroup>
             <Button
                 android:id="@+id/siusti"
                 android:text="@string/naujasIrasasSiusti"

@@ -28,7 +28,7 @@ public class MenuActivity extends AppCompatActivity {
             @Override
             public void onClick(View arg0) {
                 Toast.makeText(MenuActivity.this, "Paspaustas peržiūrėti įrašus mygtukas", Toast.LENGTH_SHORT).show();
-                Intent goToMenuActivity = new Intent(MenuActivity.this, NaujasIrasasActivity.class);
+                Intent goToMenuActivity = new Intent(MenuActivity.this, SearchActivity.class);
                 startActivity(goToMenuActivity);
             }
 
